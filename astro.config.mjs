@@ -17,16 +17,24 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "Guides",
+          label: "Projects",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "Just-Blade", slug: "just-blade" },
+            { label: "WP-Blade", slug: "wp-blade" },
           ],
         },
-        {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
-        },
+        //   {
+        //     label: "Guides",
+        //     items: [
+        //       // Each item here is one entry in the navigation menu.
+        //       { label: "Example Guide", slug: "guides/example" },
+        //     ],
+        //   },
+        //   {
+        //     label: "Reference",
+        //     autogenerate: { directory: "reference" },
+        //   },
       ],
     }),
   ],

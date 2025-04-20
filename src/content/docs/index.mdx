@@ -10,19 +10,25 @@ hero:
     - text: Example Guide
       link: /guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
+    - text: Read the webpup docs
       link: https://webpup.github.io
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
+import "../../assets/global.css";
+
+
 
 ## Next steps
 
 <CardGrid stagger>
-  <Card title="Update content" icon="pencil">
-    Edit `src/content/docs/index.mdx` to see this page change.
+  <Card title="Just-Blade" icon="pencil" link="/just-blade/">
+    ``` composer require webpup/just-blade ```   
+
+    [Read more ->](/just-blade/)
+
   </Card>
   <Card title="Add new content" icon="add-document">
     Add Markdown or MDX files to `src/content/docs` to create new pages.
