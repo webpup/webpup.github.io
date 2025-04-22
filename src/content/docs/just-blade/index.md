@@ -21,7 +21,7 @@ How to use it in your plain php projects
 $views = THEME_PATH . '/views';
 $cache = THEME_PATH . '/storage/cache';
 
-$blade = new \Just\Blade\Blade($views, $cache);
+$blade = new \Just\Blade($views, $cache);
 $blade->render($template, $data);
 
 ```
