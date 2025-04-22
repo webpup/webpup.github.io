@@ -22,6 +22,7 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Just-Blade", slug: "just-blade" },
             { label: "WP-Blade", slug: "wp-blade" },
+            { label: "WP-Theme", slug: "wp-theme" },
           ],
         },
         //   {
