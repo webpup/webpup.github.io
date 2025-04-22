@@ -1,5 +1,5 @@
 ---
-title: WP-Blade
+title: WP-Theme
 description: use blade templating for developing wordpress themes
 ---
 
@@ -10,5 +10,5 @@ Create wordpress themes using blade templates
 ### Installation
 
 ```php
-composer require webpup/wp-blade
+composer create-project webpup/wp-theme my-theme
 ```
